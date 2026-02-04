@@ -1,4 +1,4 @@
-# PIXEL CHECK PRO v1.0
+# PIXEL CHECK PRO v1.4
 ## Sistema Científico de Análisis de Sensores
 
 ### 🚀 USO INMEDIATO
