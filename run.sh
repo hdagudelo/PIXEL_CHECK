@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "=== PIXEL CHECK PRO v1.0 ==="
+echo "=== PIXEL CHECK PRO v1.4 ==="
 echo "Sistema científico de análisis de sensores DSLR"
 echo ""
 
