@@ -3,7 +3,7 @@
 
 ### 🚀 USO INMEDIATO
 1. Descomprimir este ZIP
-2. En Linux/macOS: `chmod +x run.sh && ./run.sh`
+2. En Linux/macOS: `chmod +x run.sh && ./run.sh` o sinó funciona en macOS `chmod +x run.sh && bash run.sh`
 3. En Windows: doble clic en `run.bat`
 
 ### 📊 CARACTERÍSTICAS
