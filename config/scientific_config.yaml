@@ -1,0 +1,51 @@
+# Pixel Check Pro - Configuración Científica
+# Parámetros basados en literatura científica
+
+analysis:
+  # Métodos estadísticos
+  statistical_methods:
+    - sigma_clipping      # 5σ estándar astronómico
+    - iqr_method          # Método de Tukey
+    - mad_method          # Median Absolute Deviation
+  
+  # Umbrales (ajustables según necesidades)
+  thresholds:
+    sigma_level: 5.0          # Nivel sigma para outliers
+    iqr_multiplier: 3.0       # Multiplicador IQR
+    mad_threshold: 3.5        # Threshold para MAD
+    consensus_min_methods: 2  # Mínimo métodos que deben coincidir
+
+# Clasificación ISO de sensores
+iso_classification:
+  class_a_plus:    # Sensores profesionales (astro/studio)
+    hot_max_percent: 0.001      # 0.001%
+    dead_max_percent: 0.0005    # 0.0005%
+    description: "Sensor profesional de grado científico"
+  
+  class_a:         # Sensores profesionales
+    hot_max_percent: 0.005      # 0.005%
+    dead_max_percent: 0.002     # 0.002%
+    description: "Sensor profesional para fotografía"
+  
+  class_b:         # Sensores avanzados
+    hot_max_percent: 0.01       # 0.01%
+    dead_max_percent: 0.005     # 0.005%
+    description: "Sensor de alta calidad para usuario avanzado"
+  
+  class_c:         # Sensores consumer
+    hot_max_percent: 0.02       # 0.02%
+    dead_max_percent: 0.01      # 0.01%
+    description: "Sensor para uso general"
+
+# Parámetros de imagen
+image:
+  default_bit_depth: 14          # 14-bit común en DSLR
+  supported_formats: [".tif", ".tiff", ".png", ".dng"]
+  normalize_by_bit_depth: true
+
+# Salida
+output:
+  generate_json: true
+  generate_excel: true
+  generate_summary: true
+  timestamp_format: "%Y%m%d_%H%M%S"
