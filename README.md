@@ -1,6 +1,10 @@
 # PIXEL CHECK PRO
 
-Professional sensor pixel analysis tool.
+Scientific cross-platform system for DSLR/Mirrorless sensor analysis.
+
+📘 English documentation: README_EN.md  
+📕 Documentación en español: README_ES.md
+
 
 ## Quick usage
 
