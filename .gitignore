@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Resultados generados
+resultados/
+
+# Archivos de prueba de imagen
+*.CR2
+*.cr2
+*.TIFF
+*.tiff
+*.TIF
+*.tif
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
