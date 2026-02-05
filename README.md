@@ -70,6 +70,11 @@ PIXEL_CHECK_PRO/
 ```bash
 chmod +x run.sh
 ./run.sh /ruta/a/carpeta_con_CR2_o_TIFF
+
+o bien
+
+bash run.sh /ruta/a/carpeta_con_CR2_o_TIFF
+
 ```
 
 ### Windows (CMD / PowerShell)
